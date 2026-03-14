@@ -30,8 +30,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Guess = "";
         currentState = GameState.Playing;
 
-        Debug.Log("<size=15><color=red> Welcome </color></size>");
-        Debug.LogFormat("Min is {0} \n\t Max is {1}", Min, Max);
+        Debug.Log("<size=15><b> Welcome To Numbers Guessing Game!</b></size>");
+        Debug.LogFormat("Guess a number between <b>{0}</b> and <b>{1}</b>", Min, Max);
         Debug.Log($"Max attempts: {maxAttempts}. Enter your guess:");
     }
 
